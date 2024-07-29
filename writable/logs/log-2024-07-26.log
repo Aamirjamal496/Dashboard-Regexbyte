@@ -1,0 +1,954 @@
+INFO - 2024-07-26 03:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 03:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 03:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 03:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 03:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 03:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 03:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 03:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 03:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 03:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 03:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 03:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 04:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:02:02 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:03:16 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:03:20 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:04:22 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:04:31 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:04:48 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:10:08 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:10:11 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:11:50 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:12:37 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 04:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:13:36 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 04:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 04:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:13:44 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:22:07 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\LoginController.php on line 101.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\login_php\\vendor\\composer/../../app/Controllers/LoginController.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\LoginController')
+ 3 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LoginController', true)
+ 4 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:23:08 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\LoginController.php on line 101.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\login_php\\vendor\\composer/../../app/Controllers/LoginController.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\LoginController')
+ 3 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LoginController', true)
+ 4 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:23:39 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\LoginController.php on line 101.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\login_php\\vendor\\composer/../../app/Controllers/LoginController.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\LoginController')
+ 3 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LoginController', true)
+ 4 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:24:03 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\LoginController.php on line 101.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\login_php\\vendor\\composer/../../app/Controllers/LoginController.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\LoginController')
+ 3 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LoginController', true)
+ 4 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:24:26 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\LoginController.php on line 103.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\login_php\\vendor\\composer/../../app/Controllers/LoginController.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\LoginController')
+ 3 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LoginController', true)
+ 4 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:25:00 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\LoginController.php on line 101.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\login_php\\vendor\\composer/../../app/Controllers/LoginController.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\LoginController')
+ 3 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LoginController', true)
+ 4 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:25:27 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 04:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:26:24 --> Undefined variable $id
+in APPPATH\Controllers\LoginController.php on line 98.
+ 1 APPPATH\Controllers\LoginController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\login_php\\app\\Controllers\\LoginController.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService([...])
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:26:51 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:27:33 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 04:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 04:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:28:58 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:30:34 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:30:50 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:30:53 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:30:55 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:30:59 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:45:31 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 04:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:47:44 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:49:29 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:50:19 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 04:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 04:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 04:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 04:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:51:33 --> Undefined variable $id
+in APPPATH\Controllers\LoginController.php on line 191.
+ 1 APPPATH\Controllers\LoginController.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\login_php\\app\\Controllers\\LoginController.php', 191)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateUser('120')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 04:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 04:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 04:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 04:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:52:22 --> print_r(): Argument #2 ($return) must be of type bool, array given
+in APPPATH\Controllers\LoginController.php on line 98.
+ 1 APPPATH\Controllers\LoginController.php(98): print_r('19', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 04:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:53:05 --> print_r(): Argument #2 ($return) must be of type bool, array given
+in APPPATH\Controllers\LoginController.php on line 98.
+ 1 APPPATH\Controllers\LoginController.php(98): print_r('19', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:53:23 --> Undefined variable $SData
+in APPPATH\Controllers\LoginController.php on line 98.
+ 1 APPPATH\Controllers\LoginController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $SData', 'C:\\xampp\\htdocs\\login_php\\app\\Controllers\\LoginController.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:53:36 --> print_r(): Argument #2 ($return) must be of type bool, array given
+in APPPATH\Controllers\LoginController.php on line 98.
+ 1 APPPATH\Controllers\LoginController.php(98): print_r('19', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:53:55 --> syntax error, unexpected token ","
+in APPPATH\Controllers\LoginController.php on line 98.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\login_php\\vendor\\composer/../../app/Controllers/LoginController.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\LoginController')
+ 3 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LoginController', true)
+ 4 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:54:18 --> syntax error, unexpected token ","
+in APPPATH\Controllers\LoginController.php on line 98.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\login_php\\vendor\\composer/../../app/Controllers/LoginController.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\LoginController')
+ 3 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LoginController', true)
+ 4 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:54:30 --> syntax error, unexpected variable "$SData"
+in APPPATH\Controllers\LoginController.php on line 98.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\login_php\\vendor\\composer/../../app/Controllers/LoginController.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\LoginController')
+ 3 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LoginController', true)
+ 4 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:55:18 --> print_r(): Argument #2 ($return) must be of type bool, array given
+in APPPATH\Controllers\LoginController.php on line 98.
+ 1 APPPATH\Controllers\LoginController.php(98): print_r('19', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-26 04:55:34 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`test`.`service`, CONSTRAINT `FK_stype` FOREIGN KEY (`servicetype`) REFERENCES `servicetype` (`s_Id`)) in C:\xampp\htdocs\login_php\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login_php\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `service...', 0)
+#1 C:\xampp\htdocs\login_php\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `service...')
+#2 C:\xampp\htdocs\login_php\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `service...')
+#3 C:\xampp\htdocs\login_php\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `service...', Array, false)
+#4 C:\xampp\htdocs\login_php\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\login_php\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\login_php\system\Model.php(776): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\login_php\app\Models\ServiceModel.php(48): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\login_php\app\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19', Array)
+#9 C:\xampp\htdocs\login_php\system\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+#10 C:\xampp\htdocs\login_php\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\login_php\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login_php\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-07-26 04:55:34 --> Cannot add or update a child row: a foreign key constraint fails (`test`.`service`, CONSTRAINT `FK_stype` FOREIGN KEY (`servicetype`) REFERENCES `servicetype` (`s_Id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `service` SET `first` = :first:, `last` = :last:, `email` = :email:, `phone` = :phone:, `servicetype` = :servicetype:, `servicecategory` = :servicecategory:, `details` = :details:
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Models\ServiceModel.php(48): CodeIgniter\Model->update()
+ 6 APPPATH\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-26 04:56:20 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`test`.`service`, CONSTRAINT `FK_stype` FOREIGN KEY (`servicetype`) REFERENCES `servicetype` (`s_Id`)) in C:\xampp\htdocs\login_php\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login_php\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `service...', 0)
+#1 C:\xampp\htdocs\login_php\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `service...')
+#2 C:\xampp\htdocs\login_php\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `service...')
+#3 C:\xampp\htdocs\login_php\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `service...', Array, false)
+#4 C:\xampp\htdocs\login_php\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\login_php\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\login_php\system\Model.php(776): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\login_php\app\Models\ServiceModel.php(48): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\login_php\app\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19', Array)
+#9 C:\xampp\htdocs\login_php\system\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+#10 C:\xampp\htdocs\login_php\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\login_php\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login_php\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-07-26 04:56:20 --> Cannot add or update a child row: a foreign key constraint fails (`test`.`service`, CONSTRAINT `FK_stype` FOREIGN KEY (`servicetype`) REFERENCES `servicetype` (`s_Id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `service` SET `first` = :first:, `last` = :last:, `email` = :email:, `phone` = :phone:, `servicetype` = :servicetype:, `servicecategory` = :servicecategory:, `details` = :details:
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Models\ServiceModel.php(48): CodeIgniter\Model->update()
+ 6 APPPATH\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 04:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 04:56:53 --> print_r(): Argument #2 ($return) must be of type bool, array given
+in APPPATH\Controllers\LoginController.php on line 98.
+ 1 APPPATH\Controllers\LoginController.php(98): print_r('19', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 05:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 05:01:53 --> print_r(): Argument #2 ($return) must be of type bool, array given
+in APPPATH\Controllers\LoginController.php on line 98.
+ 1 APPPATH\Controllers\LoginController.php(98): print_r('19', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 06:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 06:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 06:25:21 --> Too few arguments to function App\Models\ServiceModel::updateService(), 1 passed in C:\xampp\htdocs\login_php\app\Controllers\LoginController.php on line 99 and exactly 2 expected
+in APPPATH\Models\ServiceModel.php on line 46.
+ 1 APPPATH\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 06:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 06:26:06 --> Undefined variable $SData
+in APPPATH\Models\ServiceModel.php on line 48.
+ 1 APPPATH\Models\ServiceModel.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $SData', 'C:\\xampp\\htdocs\\login_php\\app\\Models\\ServiceModel.php', 48)
+ 2 APPPATH\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 06:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 06:26:37 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 06:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 06:28:41 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 06:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 06:28:44 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 06:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 06:29:02 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 06:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 06:29:05 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 07:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 07:02:56 --> Too few arguments to function App\Controllers\LoginController::updateService(), 1 passed in C:\xampp\htdocs\login_php\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 07:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-26 07:06:55 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`test`.`service`, CONSTRAINT `FK_stype` FOREIGN KEY (`servicetype`) REFERENCES `servicetype` (`s_Id`)) in C:\xampp\htdocs\login_php\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login_php\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `service...', 0)
+#1 C:\xampp\htdocs\login_php\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `service...')
+#2 C:\xampp\htdocs\login_php\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `service...')
+#3 C:\xampp\htdocs\login_php\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `service...', Array, false)
+#4 C:\xampp\htdocs\login_php\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\login_php\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\login_php\system\Model.php(776): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\login_php\app\Models\ServiceModel.php(48): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\login_php\app\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19', Array)
+#9 C:\xampp\htdocs\login_php\system\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+#10 C:\xampp\htdocs\login_php\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\login_php\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login_php\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-07-26 07:06:55 --> Cannot add or update a child row: a foreign key constraint fails (`test`.`service`, CONSTRAINT `FK_stype` FOREIGN KEY (`servicetype`) REFERENCES `servicetype` (`s_Id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `service` SET `first` = :first:, `last` = :last:, `email` = :email:, `phone` = :phone:, `servicetype` = :servicetype:, `servicecategory` = :servicecategory:, `details` = :details:
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Models\ServiceModel.php(48): CodeIgniter\Model->update()
+ 6 APPPATH\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 07:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-26 07:13:41 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`test`.`service`, CONSTRAINT `FK_stype` FOREIGN KEY (`servicetype`) REFERENCES `servicetype` (`s_Id`)) in C:\xampp\htdocs\login_php\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login_php\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `service...', 0)
+#1 C:\xampp\htdocs\login_php\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `service...')
+#2 C:\xampp\htdocs\login_php\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `service...')
+#3 C:\xampp\htdocs\login_php\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `service...', Array, false)
+#4 C:\xampp\htdocs\login_php\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\login_php\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\login_php\system\Model.php(776): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\login_php\app\Models\ServiceModel.php(48): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\login_php\app\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19', Array)
+#9 C:\xampp\htdocs\login_php\system\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+#10 C:\xampp\htdocs\login_php\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\login_php\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login_php\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-07-26 07:13:41 --> Cannot add or update a child row: a foreign key constraint fails (`test`.`service`, CONSTRAINT `FK_stype` FOREIGN KEY (`servicetype`) REFERENCES `servicetype` (`s_Id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `service` SET `first` = :first:, `last` = :last:, `email` = :email:, `phone` = :phone:, `servicetype` = :servicetype:, `servicecategory` = :servicecategory:, `details` = :details:
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Models\ServiceModel.php(48): CodeIgniter\Model->update()
+ 6 APPPATH\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 07:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-26 07:14:36 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`test`.`service`, CONSTRAINT `FK_stype` FOREIGN KEY (`servicetype`) REFERENCES `servicetype` (`s_Id`)) in C:\xampp\htdocs\login_php\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login_php\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `service...', 0)
+#1 C:\xampp\htdocs\login_php\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `service...')
+#2 C:\xampp\htdocs\login_php\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `service...')
+#3 C:\xampp\htdocs\login_php\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `service...', Array, false)
+#4 C:\xampp\htdocs\login_php\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\login_php\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\login_php\system\Model.php(776): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\login_php\app\Models\ServiceModel.php(48): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\login_php\app\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19', Array)
+#9 C:\xampp\htdocs\login_php\system\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+#10 C:\xampp\htdocs\login_php\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\login_php\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login_php\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-07-26 07:14:36 --> Cannot add or update a child row: a foreign key constraint fails (`test`.`service`, CONSTRAINT `FK_stype` FOREIGN KEY (`servicetype`) REFERENCES `servicetype` (`s_Id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `service` SET `first` = :first:, `last` = :last:, `email` = :email:, `phone` = :phone:, `servicetype` = :servicetype:, `servicecategory` = :servicecategory:, `details` = :details:
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Models\ServiceModel.php(48): CodeIgniter\Model->update()
+ 6 APPPATH\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 07:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-26 07:16:12 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`test`.`service`, CONSTRAINT `FK_stype` FOREIGN KEY (`servicetype`) REFERENCES `servicetype` (`s_Id`)) in C:\xampp\htdocs\login_php\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login_php\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `service...', 0)
+#1 C:\xampp\htdocs\login_php\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `service...')
+#2 C:\xampp\htdocs\login_php\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `service...')
+#3 C:\xampp\htdocs\login_php\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `service...', Array, false)
+#4 C:\xampp\htdocs\login_php\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\login_php\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\login_php\system\Model.php(776): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\login_php\app\Models\ServiceModel.php(48): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\login_php\app\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19', Array)
+#9 C:\xampp\htdocs\login_php\system\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+#10 C:\xampp\htdocs\login_php\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\login_php\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login_php\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-07-26 07:16:12 --> Cannot add or update a child row: a foreign key constraint fails (`test`.`service`, CONSTRAINT `FK_stype` FOREIGN KEY (`servicetype`) REFERENCES `servicetype` (`s_Id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `service` SET `first` = :first:, `last` = :last:, `email` = :email:, `phone` = :phone:, `servicetype` = :servicetype:, `servicecategory` = :servicecategory:, `details` = :details:
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Models\ServiceModel.php(48): CodeIgniter\Model->update()
+ 6 APPPATH\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 07:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-26 07:16:18 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`test`.`service`, CONSTRAINT `FK_stype` FOREIGN KEY (`servicetype`) REFERENCES `servicetype` (`s_Id`)) in C:\xampp\htdocs\login_php\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login_php\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `service...', 0)
+#1 C:\xampp\htdocs\login_php\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `service...')
+#2 C:\xampp\htdocs\login_php\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `service...')
+#3 C:\xampp\htdocs\login_php\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `service...', Array, false)
+#4 C:\xampp\htdocs\login_php\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\login_php\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\login_php\system\Model.php(776): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\login_php\app\Models\ServiceModel.php(48): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\login_php\app\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19', Array)
+#9 C:\xampp\htdocs\login_php\system\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+#10 C:\xampp\htdocs\login_php\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\login_php\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login_php\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-07-26 07:16:18 --> Cannot add or update a child row: a foreign key constraint fails (`test`.`service`, CONSTRAINT `FK_stype` FOREIGN KEY (`servicetype`) REFERENCES `servicetype` (`s_Id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `service` SET `first` = :first:, `last` = :last:, `email` = :email:, `phone` = :phone:, `servicetype` = :servicetype:, `servicecategory` = :servicecategory:, `details` = :details:
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Models\ServiceModel.php(48): CodeIgniter\Model->update()
+ 6 APPPATH\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 07:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-26 07:23:00 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`test`.`service`, CONSTRAINT `FK_stype` FOREIGN KEY (`servicetype`) REFERENCES `servicetype` (`s_Id`)) in C:\xampp\htdocs\login_php\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login_php\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `service...', 0)
+#1 C:\xampp\htdocs\login_php\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `service...')
+#2 C:\xampp\htdocs\login_php\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `service...')
+#3 C:\xampp\htdocs\login_php\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `service...', Array, false)
+#4 C:\xampp\htdocs\login_php\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\login_php\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\login_php\system\Model.php(776): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\login_php\app\Models\ServiceModel.php(48): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\login_php\app\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19', Array)
+#9 C:\xampp\htdocs\login_php\system\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+#10 C:\xampp\htdocs\login_php\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\login_php\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login_php\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-07-26 07:23:00 --> Cannot add or update a child row: a foreign key constraint fails (`test`.`service`, CONSTRAINT `FK_stype` FOREIGN KEY (`servicetype`) REFERENCES `servicetype` (`s_Id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `service` SET `first` = :first:, `last` = :last:, `email` = :email:, `phone` = :phone:, `servicetype` = :servicetype:, `servicecategory` = :servicecategory:, `details` = :details:
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Models\ServiceModel.php(48): CodeIgniter\Model->update()
+ 6 APPPATH\Controllers\LoginController.php(99): App\Models\ServiceModel->updateService('19', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateService('19')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 07:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 07:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 08:49:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\EditService.php on line 29.
+ 1 APPPATH\Views\EditService.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('EditService.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(77): view('EditService.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->EditService('122')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 08:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 08:56:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\EditService.php on line 29.
+ 1 APPPATH\Views\EditService.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('EditService.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(76): view('EditService.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->EditService('122')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 08:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 08:56:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\EditService.php on line 29.
+ 1 APPPATH\Views\EditService.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('EditService.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(75): view('EditService.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->EditService('122')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 08:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 08:56:55 --> Trying to access array offset on value of type null
+in APPPATH\Views\EditService.php on line 29.
+ 1 APPPATH\Views\EditService.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('EditService.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(75): view('EditService.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->EditService('122')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 08:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 08:56:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\EditService.php on line 29.
+ 1 APPPATH\Views\EditService.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('EditService.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(75): view('EditService.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->EditService('122')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 08:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 08:56:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\EditService.php on line 29.
+ 1 APPPATH\Views\EditService.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('EditService.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(75): view('EditService.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->EditService('122')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 08:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 08:57:12 --> Trying to access array offset on value of type null
+in APPPATH\Views\EditService.php on line 29.
+ 1 APPPATH\Views\EditService.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('EditService.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(75): view('EditService.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->EditService('122')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 08:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 08:57:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\EditService.php on line 29.
+ 1 APPPATH\Views\EditService.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('EditService.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(75): view('EditService.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->EditService('122')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 08:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 08:57:14 --> Trying to access array offset on value of type null
+in APPPATH\Views\EditService.php on line 29.
+ 1 APPPATH\Views\EditService.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('EditService.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(75): view('EditService.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->EditService('122')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 08:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 08:57:50 --> Trying to access array offset on value of type null
+in APPPATH\Views\EditService.php on line 29.
+ 1 APPPATH\Views\EditService.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('EditService.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(77): view('EditService.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->EditService('122')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 08:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 08:57:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\EditService.php on line 29.
+ 1 APPPATH\Views\EditService.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('EditService.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(77): view('EditService.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->EditService('122')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 08:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 08:58:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\EditService.php on line 29.
+ 1 APPPATH\Views\EditService.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('EditService.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(79): view('EditService.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->EditService('122')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 08:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 08:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 08:58:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\EditService.php on line 29.
+ 1 APPPATH\Views\EditService.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_php\\app\\Views\\EditService.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('EditService.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(79): view('EditService.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->EditService('122')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 08:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 09:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
