@@ -255,6 +255,12 @@ class LoginController extends Controller
         return redirect()->to(base_url('getSlider'));
     }
 
+    // Projects Function:
+    public function getPr()
+    {
+        return view('projects.php');
+    }
+
     // Logout:
 
     public function logout()

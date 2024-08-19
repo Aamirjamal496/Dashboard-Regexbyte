@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="apple-touch-icon" sizes="76x76" href="../public/assets/img/apple-icon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./public/assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="./public/logo.png">
     <title>
-        Slider Page
+        Categories
     </title>
     <!--     Fonts and icons     -->
     <link rel="stylesheet" type="text/css"
@@ -27,24 +27,22 @@
 </head>
 
 <body class="g-sidenav-show  bg-gray-200">
-    <!-- Dashboard Aside -->
     <aside
         class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark"
         id="sidenav-main">
         <div class="sidenav-header">
             <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none"
                 aria-hidden="true" id="iconSidenav"></i>
-            <a class="navbar-brand m-0" href=" https://demos.creative-tim.com/material-dashboard/pages/dashboard "
-                target="_blank">
+            <a class="navbar-brand m-0" href="<?= base_url('dashboard'); ?>">
                 <img src="./public/logo.png" class="navbar-brand-img h-100" alt="main_logo">
-                <span class="ms-1 font-weight-bold text-white">RegexByte Dashboard</span>
+                <span class="ms-1 font-weight-bold text-white">Regexbyte Dashboard</span>
             </a>
         </div>
         <hr class="horizontal light mt-0 mb-2">
         <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link text-white " href="<?= base_url("dashboard"); ?>">
+                    <a class="nav-link text-white " href="<?= base_url('dashboard'); ?>">
                         <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                             <i class="material-icons opacity-10">dashboard</i>
                         </div>
@@ -52,7 +50,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white " href="<?= base_url("/Categories"); ?>">
+                    <a class="nav-link text-white active bg-gradient-primary" href="<?= base_url("/category"); ?>">
                         <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                             <i class="material-icons opacity-10">table_view</i>
                         </div>
@@ -60,7 +58,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white active bg-gradient-primary" href="<?= base_url("Slider"); ?>">
+                    <a class="nav-link text-white " href="<?= base_url('getSlider') ?>">
                         <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                             <i class="material-icons opacity-10">receipt_long</i>
                         </div>
@@ -68,10 +66,7 @@
                     </a>
                 </li>
 
-            </ul>
-        </div>
     </aside>
-    <!-- Dashboard Aside End -->
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
         <!-- Navbar -->
         <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur"
@@ -83,7 +78,7 @@
                         </li>
                         <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Tables</li>
                     </ol>
-                    <h6 class="font-weight-bolder mb-0">Slider</h6>
+                    <h6 class="font-weight-bolder mb-0">Categories</h6>
                 </nav>
                 <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
                     <div class="ms-md-auto pe-md-3 d-flex align-items-center">
@@ -95,30 +90,26 @@
                     <ul class="navbar-nav  justify-content-end">
                         <li class="nav-item d-flex align-items-center">
                             <a class="btn btn-outline-primary btn-sm mb-0 me-3" data-toggle="modal"
-                                data-target=".Model-slider">Add Slider</a>
+                                data-target=".bd-example-modal-sm">Add Category</a>
                         </li>
                         <!-- Model -->
                         <!-- small modal -->
                         <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button> -->
 
-                        <div class="modal fade Model-slider" tabindex="-1" role="dialog"
+                        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog"
                             aria-labelledby="mySmallModalLabel">
                             <div class="modal-dialog modal-sm" role="document">
                                 <div class="modal-content">
                                     <div class="card card-plain">
                                         <div class="card-header">
-                                            <h4 class="font-weight-bolder">Add Slider</h4>
+                                            <h4 class="font-weight-bolder">Add Category</h4>
                                             <p class="mb-0">Fillout the form to add Category</p>
                                         </div>
                                         <div class="card-body">
-                                            <form role="form" action="<?= base_url('saveSlider'); ?>" method="post" enctype="multipart/form-data">
-                                            <div class="input-group input-group-outline mb-3">
-                                                    <label class="form-label">Profile</label>
-                                                    <input type="file" name="img" placeholder="Profile" class="form-control">
-                                                </div>
+                                            <form role="form" action="<?= base_url('saveCat'); ?>" method="post">
                                                 <div class="input-group input-group-outline mb-3">
-                                                    <label class="form-label">Title</label>
-                                                    <input type="text" name="title" class="form-control">
+                                                    <label class="form-label">Name</label>
+                                                    <input type="text" name="name" class="form-control">
                                                 </div>
                                                 <div class="input-group input-group-outline mb-3">
                                                     <!-- <label class="form-label">Status</label> -->
@@ -164,87 +155,8 @@
         </nav>
         <!-- End Navbar -->
 
-        <div class="row">
-            <div class="col-12">
-                <div class="card my-4">
-                    <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                        <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                            <h6 class="text-white text-capitalize ps-3">Slider table</h6>
-                        </div>
-                    </div>
-                    <div class="card-body px-0 pb-2">
-                        <div class="table-responsive p-0">
-                            <table class="table align-items-center justify-content-center mb-0">
-                                <thead>
-                                    <tr>
-                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                            Profile</th>
-                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                            ID</th>
-                                        <th
-                                            class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
-                                            Title</th>
-                                        <th
-                                            class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
-                                            Status</th>
-                                        <th
-                                            class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">
-                                            DEscription</th>
-                                        <th></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                <?php foreach ($slider as $slide): ?>
-                                    <tr>
-                                        <td>
-                                            <div class="d-flex px-2">
-                                                <div>
-                                                    <!-- <img src="./public/assets/img/small-logos/logo-asana.svg"
-                                                        class="avatar avatar-sm rounded-circle me-2" alt="spotify"> -->
-                                                      <?php $slide['img']; ?>
-                                                </div>
-                                        </td>
-                                        <td>
-                                            <div class="my-auto">
-                                                <h6 class="mb-0 text-sm"><?= $slide['title']; ?></h6>
-                                            </div>
-                        </div>
-                        </td>
-                        <td>
-                            <p class="text-sm font-weight-bold mb-0">$2,500</p>
-                        </td>
-                        <td>
-                            <span class="text-xs font-weight-bold">working</span>
-                        </td>
-                        <td class="align-middle text-center">
-                            <div class="d-flex align-items-center justify-content-center">
-                                <span class="me-2 text-xs font-weight-bold">60%</span>
-                                <div>
-                                    <div class="progress">
-                                        <div class="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="60"
-                                            aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-                        <td class="align-middle">
-                            <button class="btn btn-link text-secondary mb-0">
-                                <i class="fa fa-ellipsis-v text-xs">Edit</i>
-                                <i class="fa fa-ellipsis-v text-xs">Delete</i>
-                            </button>
-                        </td>
-                        </tr>
-                        <?php endforeach; ?>
-                        </tbody>
-                        
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        </div>
-    </main>
+
+                                   
     <div class="fixed-plugin">
         <a class="fixed-plugin-button text-dark position-fixed px-3 py-2 ">
             <i class="spinner-border border-0 material-icons py-2 ">settings</i>
@@ -368,5 +280,3 @@
 </body>
 
 </html>
-
-=========================================================================================category

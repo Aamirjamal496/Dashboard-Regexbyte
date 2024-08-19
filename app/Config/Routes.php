@@ -23,6 +23,9 @@ $routes->post('saveSlider','LoginController::saveSlider');
 $routes->post('UpdateSlider','LoginController::UpdateSlider');
 $routes->get('getSlider','LoginController::getSlider');
 $routes->get('deleteSlide/(:num)','LoginController::deleteSlide/$1');
+
+// Projects Routs:
+$routes->get('projects','LoginController::getPr');
 // logoout route:
 $routes->get('logout','LoginController::logout');
 
