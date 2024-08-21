@@ -9,7 +9,7 @@ class LoginModel extends Model
     protected $table = 'user-table';
     protected $primaryKey = "id";
     protected $allowedFields =
-    ['firstname', 'lastname', 'email', 'phone', 'Password', 'image', 'status', 'created-at'];
+        ['firstname', 'lastname', 'email', 'phone', 'Password', 'image', 'status', 'created-at'];
 
     public function savedata($Data)
     {
@@ -29,8 +29,9 @@ class LoginModel extends Model
     public function getCatData()
     {
         return $this->db->table('categories')
-        ->get()
-        ->getResultArray();
+            ->get()
+            ->getResultArray();
+        // return $query->result_array();
     }
     // Delete category
     public function delCat($id)
@@ -53,8 +54,8 @@ class LoginModel extends Model
     public function getSlider()
     {
         return $this->db->table('slider')
-        ->get()
-        ->getResultArray();
+            ->get()
+            ->getResultArray();
     }
     public function updateSlider($id, $SData)
     {
@@ -62,6 +63,30 @@ class LoginModel extends Model
     }
     public function delslide($id)
     {
-        return $this->db->table('slider')->where('id',$id)->delete();
+        return $this->db->table('slider')->where('id', $id)->delete();
+    }
+
+    public function saveImage($imagedata)
+    {
+        return $this->db->table('images')->insert($imagedata);
+    }
+
+    // Project Models
+    public function savePr($data)
+    {
+        $this->db->table('projects')->insert($data);
+        return $this->db->insertID();
+    }
+    public function getCombinedData()
+    { 
+       return $this->db->table('projects')
+                  ->select('*')
+                  ->join('images', 'images.idProject = projects.id', 'left')
+                  ->get()
+                  ->getResultArray();
+    }
+    public function delProject($id)
+    {
+        return $this->db->table('projects')->where('id', $id)->delete();
     }
 }
