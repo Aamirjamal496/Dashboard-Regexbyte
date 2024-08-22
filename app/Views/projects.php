@@ -103,14 +103,15 @@
                         </li>
                         <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Tables</li>
                     </ol>
-                    <h6 class="font-weight-bolder mb-0">Categories</h6>
+                    <h6 class="font-weight-bolder mb-0">Projects</h6>
                 </nav>
                 <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
                     <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-                        <div class="input-group input-group-outline">
+                        <form action="search" method="post" class="input-group input-group-outline">
                             <label class="form-label">Type here...</label>
-                            <input type="text" class="form-control">
-                        </div>
+                            <input type="text" name="name" class="form-control">
+                            <button type="submit" class="btn btn-dark">Search</button>
+                        </form>
                     </div>
                     <ul class="navbar-nav  justify-content-end">
                         <!-- <li class="nav-item d-flex align-items-center">
@@ -195,21 +196,29 @@
                     <!-- Projects Grid -->
                     <div class="card-body">
                         <div class="row">
-                            <?php foreach($projects as $proj): ?>
-                            <!-- Project 1 -->
-                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                <div class="card-pr h-100">
-                                    <img src="<?= base_url('uploads/' . esc($proj['image'])); ?>" class="card-img-top m-2 mx-6" style="width:9rem;"
-                                        alt="...">
-                                    <div class="card-body mt-1 px-2 py-2 text-center">
-                                        <h5 class="card-title"><?=$proj['projectTitle'];?></h5>
-                                        <p class="card-text"><?=$proj['projectDescription'];?></p>
-                                        <a href="#" class="btn btn-dark bg-gradient-secondary btn-sm me-2">Edit</a>
-                                        <a href="<?=base_url('/'. $proj['id']);?>" onclick="return confirm('Are You sure you want to delete this project')" class="btn btn-primary btn-sm">Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <?php endforeach;?>
+                            <?php if (!empty($pr)): ?>
+                                <?php foreach ($pr as $pr): ?>
+                                    <?php foreach ($projects as $proj): ?>
+                                        <!-- Project 1 -->
+                                        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            <div class="card-pr h-100">
+                                                <img src="<?= base_url('uploads/' . esc($proj['image'])); ?>"
+                                                    class="card-img-top m-2 mx-6" style="width:9rem;" alt="...">
+                                                <div class="card-body mt-1 px-2 py-2 text-center">
+                                                    <h5 class="card-title"><?= $proj['projectTitle']; ?></h5>
+                                                    <p class="card-text"><?= $proj['projectDescription']; ?></p>
+                                                    <!-- <a href="#" class="btn btn-dark bg-gradient-secondary btn-sm me-2">Edit</a> -->
+                                                    <a href="<?= base_url('/' . $proj['id']); ?>"
+                                                        onclick="return confirm('Are You sure you want to delete this project')"
+                                                        class="btn btn-primary btn-sm">Delete</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php endforeach; ?>
+                                <?php endforeach; ?>
+                            <?php else: ?>
+                                <p>No results found</p>
+                            <?php endif; ?>
                             <!-- End Project 1 -->
                         </div>
                     </div>
@@ -341,28 +350,28 @@
     </script> -->
 
         <!-- JS ajax call for dropdown values -->
-         <script>
-        $(document).ready(function() {
-        $('#addProjectBtn').click(function() {
-        $.ajax({
-        url: '<?= base_url("getCategories"); ?>',
-        type: 'GET',
-        dataType: 'json',
-        success: function(data) {
-        var dropdown = $('#dropdown');
-        dropdown.empty();
-        dropdown.append('<option value="default">Select Category</option>');
-        $.each(data, function(i, item) {
-        dropdown.append($('<option></option>').val(item.id).text(item.name));
-        });
-        $('.Model-project').modal('show');
-        },
-        error: function() {
-        alert('Error fetching categories');
-        }
-        });
-        });
-        });
+        <script>
+            $(document).ready(function () {
+                $('#addProjectBtn').click(function () {
+                    $.ajax({
+                        url: '<?= base_url("getCategories"); ?>',
+                        type: 'GET',
+                        dataType: 'json',
+                        success: function (data) {
+                            var dropdown = $('#dropdown');
+                            dropdown.empty();
+                            dropdown.append('<option value="default">Select Category</option>');
+                            $.each(data, function (i, item) {
+                                dropdown.append($('<option></option>').val(item.id).text(item.name));
+                            });
+                            $('.Model-project').modal('show');
+                        },
+                        error: function () {
+                            alert('Error fetching categories');
+                        }
+                    });
+                });
+            });
         </script>
         <!-- Ended ajax -->
 </body>

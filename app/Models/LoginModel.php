@@ -20,6 +20,10 @@ class LoginModel extends Model
     {
         return $this->where('email', $email)->first();
     }
+    public function getData($name)
+    {
+       return $this->db->table('projects')->select('*')->where('name', $name)->get()->getResult();
+    }
     public function saveCat($AddCat)
     {
         $this->db->table('categories')->insert($AddCat);

@@ -312,6 +312,14 @@ class LoginController extends Controller
         $model->delProject($id);
         return redirect()->to(base_url('/projects'));
     }
+    public function searchProject()
+    {
+        $request = service('request');
+        $model = new LoginModel();
+        $name = $request->getPost('name');
+        $data['pr'] = $model->searchPrData($name);
+        return view('projects.php', $data);
+    }
 
     // Logout:
 

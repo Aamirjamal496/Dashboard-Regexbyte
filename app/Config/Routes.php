@@ -28,6 +28,7 @@ $routes->get('deleteSlide/(:num)','LoginController::deleteSlide/$1');
 $routes->get('/projects','LoginController::getCategories');
 $routes->post('/savePr', "LoginController::saveProject");
 $routes->get('/(:num)', "LoginController::deleteProject/$1");
+$routes->post('search',"LoginController::searchProject");
 
 // $routes->get('getCatD', "LoginController::getCatD");
 // logoout route:
