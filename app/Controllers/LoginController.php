@@ -318,7 +318,8 @@ class LoginController extends Controller
         $model = new LoginModel();
         $name = $request->getPost('name');
         $data['pr'] = $model->searchPrData($name);
-        return view('projects.php', $data);
+
+        return view('projects', $data);
     }
 
     // Logout:

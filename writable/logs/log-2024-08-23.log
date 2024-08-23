@@ -1,0 +1,389 @@
+INFO - 2024-08-23 03:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 03:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 03:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 03:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 03:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 04:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-23 04:04:22 --> Call to undefined method App\Models\LoginModel::searchPrData
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\LoginController.php(320): CodeIgniter\Model->__call('searchPrData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->searchProject()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-23 04:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 04:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-23 04:26:26 --> Undefined variable $cat
+in APPPATH\Views\projects.php on line 149.
+ 1 APPPATH\Views\projects.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\projects.php', 149)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\projects.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('projects.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(325): view('projects.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->searchProject()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-23 04:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-23 04:30:30 --> Undefined variable $cat
+in APPPATH\Views\projects.php on line 149.
+ 1 APPPATH\Views\projects.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\projects.php', 149)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\projects.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('projects.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(325): view('projects.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->searchProject()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-23 04:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-23 04:35:39 --> Undefined variable $cat
+in APPPATH\Views\projects.php on line 149.
+ 1 APPPATH\Views\projects.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\projects.php', 149)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\projects.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('projects.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(325): view('projects.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->searchProject()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-23 04:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-23 04:37:08 --> Undefined variable $cat
+in APPPATH\Views\projects.php on line 149.
+ 1 APPPATH\Views\projects.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\projects.php', 149)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\projects.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('projects', [], true)
+ 5 APPPATH\Controllers\LoginController.php(322): view('projects', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->searchProject()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-23 04:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-23 04:37:12 --> Undefined variable $cat
+in APPPATH\Views\projects.php on line 149.
+ 1 APPPATH\Views\projects.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\projects.php', 149)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\projects.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('projects', [], true)
+ 5 APPPATH\Controllers\LoginController.php(322): view('projects', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->searchProject()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-23 04:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 04:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 04:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 04:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 04:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 04:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 04:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 04:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 04:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 04:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 04:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 05:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 05:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 05:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 05:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 05:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 05:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 05:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 05:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 05:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 05:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-23 07:47:59 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-23 07:48:03 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-23 05:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-23 07:49:09 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-23 07:49:10 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-23 05:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 05:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 06:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 06:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 06:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 06:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 06:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 06:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 06:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 06:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 06:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 06:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 06:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-23 06:43:44 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`)) in C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\dashboardRegexbyte\app\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\dashboardRegexbyte\app\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-23 06:43:44 --> Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `projects`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-23 08:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-23 08:39:43 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`)) in C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\dashboardRegexbyte\app\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\dashboardRegexbyte\app\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-23 08:39:43 --> Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `projects`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-23 08:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-23 08:39:45 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`)) in C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\dashboardRegexbyte\app\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\dashboardRegexbyte\app\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-23 08:39:45 --> Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `projects`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-23 08:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-23 08:39:47 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`)) in C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\dashboardRegexbyte\app\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\dashboardRegexbyte\app\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-23 08:39:47 --> Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `projects`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-23 08:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-23 08:44:24 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`)) in C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\dashboardRegexbyte\app\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\dashboardRegexbyte\app\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-23 08:44:24 --> Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `projects`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-23 08:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-23 08:44:27 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`)) in C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\dashboardRegexbyte\app\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\dashboardRegexbyte\app\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-23 08:44:27 --> Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `projects`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-23 08:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-23 08:48:41 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`)) in C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\dashboardRegexbyte\app\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\dashboardRegexbyte\app\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-23 08:48:41 --> Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `projects`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-23 08:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-23 08:48:45 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`)) in C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\dashboardRegexbyte\app\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\dashboardRegexbyte\app\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-23 08:48:45 --> Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `projects`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-23 08:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-23 08:48:47 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`)) in C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\dashboardRegexbyte\app\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\dashboardRegexbyte\app\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-23 08:48:47 --> Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `projects`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-23 08:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-23 08:48:49 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`)) in C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\dashboardRegexbyte\app\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\dashboardRegexbyte\app\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-23 08:48:49 --> Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `projects`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-23 09:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-23 09:18:43 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`)) in C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\dashboardRegexbyte\app\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\dashboardRegexbyte\app\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-23 09:18:43 --> Cannot delete or update a parent row: a foreign key constraint fails (`dashboardregexbyte`.`images`, CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `projects`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\LoginModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\LoginController.php(312): App\Models\LoginModel->delProject('10')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->deleteProject('10')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-23 09:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

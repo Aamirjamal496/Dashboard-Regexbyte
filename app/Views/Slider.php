@@ -97,7 +97,7 @@
                     <div class="ms-md-auto pe-md-3 d-flex align-items-center">
                         <div class="input-group input-group-outline">
                             <label class="form-label">Type here...</label>
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control" name="name" id="searchInput" onkeyup="searchProjects()" >
                         </div>
                     </div>
                     <ul class="navbar-nav  justify-content-end">
@@ -206,7 +206,7 @@
                                 </thead>
                                 <tbody>
                                     <?php foreach ($slider as $slide): ?>
-                                        <tr>
+                                        <tr class="slider-row">
                                             <td>
                                             
                                                 <img src="<?php echo base_url('uploads/') . $slide['profile']; ?>"
@@ -216,7 +216,7 @@
                                                 <h6 class="mb-0 text-sm mx-3"><?= $slide['id']; ?></h6>
                                             </td>
                                             <td>
-                                                <p class="text-sm font-weight-bold mb-0"><?= $slide['title']; ?></p>
+                                                <p class="text-sm font-weight-bold mb-0" class="slider-title"><?= $slide['title']; ?></p>
                                             </td>
                                             <td>
                                                 <span class="text-xs font-weight-bold"><?= $slide['status'] ?></span>
@@ -428,6 +428,20 @@
             });
         });
     </script>
+
+    <!-- For Search -->
+     <script>
+        function searchProjects() {
+    const input = document.getElementById('searchInput').value.toLowerCase();
+    const cards = document.querySelectorAll('.slider-row');
+
+    cards.forEach(card => {
+        const title = card.querySelector('.slider-title').innerText.toLowerCase();
+        card.style.display = title.includes(input) ? '' : 'none';
+    });
+}
+
+     </script>
 
     
 

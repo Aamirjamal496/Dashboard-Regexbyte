@@ -25,6 +25,11 @@ $routes->get('getSlider','LoginController::getSlider');
 $routes->get('deleteSlide/(:num)','LoginController::deleteSlide/$1');
 
 // Projects Routs:
+// $routes->get('/projects', 'LoginController::getCategories');
+// $routes->post('/savePr', 'LoginController::saveProject');
+// $routes->get('/(:num)', 'LoginController::deleteProject/$1');
+// $routes->post('/search', 'LoginController::searchProject');
+
 $routes->get('/projects','LoginController::getCategories');
 $routes->post('/savePr', "LoginController::saveProject");
 $routes->get('/(:num)', "LoginController::deleteProject/$1");
