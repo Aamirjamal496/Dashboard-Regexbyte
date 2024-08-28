@@ -78,15 +78,32 @@ class LoginModel extends Model
         return $this->db->insertID();
     }
     public function getCombinedData()
-    { 
-       return $this->db->table('projects')
-                  ->select('*')
-                  ->join('images', 'images.idProject = projects.id', 'left')
-                  ->get()
-                  ->getResultArray();
+    {
+        return $this->db->table('projects')
+            ->select('projects.*, GROUP_CONCAT(images.image) as images')
+            ->join('images', 'images.idProject = projects.id', 'left')
+            ->groupBy('projects.id')
+            ->get()
+            ->getResultArray();
     }
+
     public function delProject($id)
     {
         return $this->db->table('projects')->where('id', $id)->delete();
+    }
+    public function deleteImagesByProjectId($projectId)
+    {
+        $this->db->table('images')->where('idProject', $projectId)->delete();
+    }
+
+    public function insertProject($data)
+    {
+        $this->db->table('projects')->insert($data);
+        return $this->db->insertID();
+    }
+
+    public function insertImage($data)
+    {
+        $this->db->table('images')->insert($data);
     }
 }

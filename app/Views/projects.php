@@ -129,15 +129,15 @@
                                 <div class="modal-content">
                                     <div class="card card-plain">
                                         <div class="card-header">
-                                            <h4 class="font-weight-bolder">Add Category</h4>
+                                            <h4 class="font-weight-bolder">Add Projects</h4>
                                             <p class="mb-0">Fillout the form to add Category</p>
                                         </div>
                                         <div class="card-body">
                                             <form role="form" action="<?= base_url('/savePr'); ?>" method="post"
                                                 enctype="multipart/form-data">
                                                 <div class="input-group input-group-outline mb-3">
-                                                    <label class="form-label">Profile</label>
-                                                    <input type="file" name="img" placeholder="Profile"
+                                                    <!-- <label>Profile</label> -->
+                                                    <input type="file" name="images[]" placeholder="Profile"
                                                         class="form-control" multiple>
                                                 </div>
                                                 <div class="input-group input-group-outline mb-3">
@@ -193,33 +193,33 @@
                                 Project</button>
                         </div>
                     </div>
-
-
-
-                    <!-- Projects Grid -->
                     <div class="card-body">
-                        <div class="row">
-                            <?php foreach ($projects as $proj): ?>
-                                <!-- Project 1 -->
-                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                    <div class="card-pr h-100">
-                                        <img src="<?= base_url('uploads/' . esc($proj['image'])); ?>"
-                                            class="card-img-top m-2 mx-6" style="width:9rem;" alt="...">
-                                        <div class="card-body mt-1 px-2 py-2 text-center">
-                                            <h5 class="card-title"><?= $proj['projectTitle']; ?></h5>
-                                            <p class="card-text"><?= $proj['projectDescription']; ?></p>
-                                            <!-- <a href="#" class="btn btn-dark bg-gradient-secondary btn-sm me-2">Edit</a> -->
-                                            <a href="<?= base_url('/' . $proj['id']); ?>"
-                                                onclick="return confirm('Are You sure you want to delete this project')"
-                                                class="btn btn-primary btn-sm">Delete</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php endforeach; ?>
-                            <!-- End Project 1 -->
-                        </div>
+    <div class="row">
+        <?php foreach ($projects as $proj): ?>
+            <!-- Project 1 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card-pr h-100">
+                <?php 
+                        // Split the images by comma (assuming you stored them as a comma-separated string)
+                        $images = explode(',', $proj['images']);
+                        // Display the first image
+                        $firstImage = $images[0];
+                    ?>
+                    <img src="<?= base_url('uploads/' . esc($firstImage)); ?>"
+                         class="card-img-top m-2 mx-6" style="width:9rem;" alt="...">
+                    <div class="card-body mt-1 px-2 py-2 text-center">
+                        <h5 class="card-title"><?= $proj['projectTitle']; ?></h5>
+                        <p class="card-text"><?= $proj['projectDescription']; ?></p>
+                        <a href="<?= base_url('/' . $proj['id']); ?>"
+                           onclick="return confirm('Are You sure you want to delete this project')"
+                           class="btn btn-primary btn-sm">Delete</a>
                     </div>
-                    <!-- End Projects Grid -->
+                </div>
+            </div>
+        <?php endforeach; ?>
+        <!-- End Project 1 -->
+    </div>
+</div>
 
                 </div>
             </div>

@@ -260,34 +260,71 @@ class LoginController extends Controller
     {
         return view('projects.php');
     }
-    public function saveProject()
-    {
-        $request = service('request');
-        $image = $request->GetFile('img');
-        $saveimg = $image->getName();
-        $image->move(FCPATH . 'uploads', $saveimg);
-        $title = $request->getPost('title');
-        $category = $request->getPost('category');
-        $desc = $request->getPost('description');
+    // public function saveProject()
+    // {
+    //     // chatgpt code:
+    // $request = service('request');
+    // $title = $request->getPost('title');
+    // $category = $request->getPost('category');
+    // $description = $request->getPost('description');
+    // $images = $request->getFiles();
 
-        $PData = [
+    // // Array to store uploaded file names
+    // $uploadedImages = [];
 
-            'projectTitle' => $title,
-            'idCategory' => $category,
-            'projectDescription' => $desc,
-        ];
+    // if ($images) {
+    //     foreach ($images['images'] as $img) {
+    //         if ($img->isValid() && !$img->hasMoved()) {
+    //             $newName = $img->getRandomName();
+    //             $img->move(WRITEPATH . 'uploads', $newName);
+    //             $uploadedImages[] = $newName;
+    //         }
+    //     }
+    // }
 
-        $model = new LoginModel();
-        $projectId = $model->savePr($PData);
+    // // Store the data in the database
+    // $data = [
+    //     'projectTitle' => $title,
+    //     'idCategory' => $category,
+    //     'projectDescription' => $description,
+    //     'images' => json_encode($uploadedImages), 
+    // ];
 
-        $imagedata = [
-            'image' => $saveimg,
-            'idProject' => $projectId
-        ];
+    // // $db = \Config\Database::connect();
+    // // $builder = $db->table('projects');
+    // // $builder->insert($data);
+    // $model = new LoginModel();
+    // $model->savePr($data);
 
-        $model->saveImage($imagedata);
-        return redirect()->to(base_url("/projects"));
-    }
+    // return redirect()->to(base_url('/projects'));
+
+    //     // end
+    //     // $request = service('request');
+    //     // $image = $request->GetFile('img');
+    //     // $saveimg = $image->getName();
+    //     // $image->move(FCPATH . 'uploads', $saveimg);
+    //     // $title = $request->getPost('title');
+    //     // $category = $request->getPost('category');
+    //     // $desc = $request->getPost('description');
+
+    //     // $PData = [
+
+    //     //     'projectTitle' => $title,
+    //     //     'idCategory' => $category,
+    //     //     'projectDescription' => $desc,
+    //     // ];
+
+    //     // $model = new LoginModel();
+    //     // $projectId = $model->savePr($PData);
+
+    //     // $imagedata = [
+    //     //     'image' => $saveimg,
+    //     //     'idProject' => $projectId
+    //     // ];
+
+    //     // $model->saveImage($imagedata);
+    //     // return redirect()->to(base_url("/projects"));
+    // }
     // public function getCatD()
     // {
     //     $model = new LoginModel();
@@ -306,22 +343,25 @@ class LoginController extends Controller
         // print_r($test);
         return view('projects.php', $data);
     }
+    // public function deleteProject($id)
+    // {
+    //     $model = new LoginModel();
+    //     $model->delProject($id);
+    //     return redirect()->to(base_url('/projects'));
+    // }
+
     public function deleteProject($id)
-    {
-        $model = new LoginModel();
-        $model->delProject($id);
-        return redirect()->to(base_url('/projects'));
-    }
-    public function searchProject()
-    {
-        $request = service('request');
-        $model = new LoginModel();
-        $name = $request->getPost('name');
-        $data['pr'] = $model->searchPrData($name);
+{
+    $model = new LoginModel();
+    
+    // First, delete the related images
+    $model->deleteImagesByProjectId($id);
 
-        return view('projects', $data);
-    }
-
+    // Then delete the project itself
+    $model->delProject($id);
+    
+    return redirect()->to(base_url("/projects"))->with('success', 'Project deleted successfully');
+}
     // Logout:
 
     public function logout()
@@ -330,4 +370,39 @@ class LoginController extends Controller
         $session->destroy();
         return redirect()->to(base_url('SignIn'));
     }
+
+
+    public function saveProject()
+    {
+        $model = new LoginModel();
+        
+        $data = [
+            'idCategory' => $this->request->getPost('category'),
+            'projectTitle' => $this->request->getPost('title'),
+            'projectDescription' => $this->request->getPost('description'),
+        ];
+        
+        $projectId = $model->insertProject($data);    
+        $images = $this->request->getFiles();
+        
+        if ($images && isset($images['images'])) { 
+            foreach ($images['images'] as $img) {  
+                if ($img->isValid() && !$img->hasMoved()) {
+                    $imgName = $img->getRandomName();
+                    $img->move(FCPATH . 'uploads', $imgName);
+        
+                    $imageData = [
+                        'idProject' => $projectId,
+                        'image' => $imgName,
+                    ];
+                    $model->insertImage($imageData);
+                }
+            }
+        }
+        // print_r($imageData);
+        // die();
+
+        return redirect()->to(base_url("/projects"));
+    }
+
 }

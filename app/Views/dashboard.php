@@ -25,7 +25,19 @@
   <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
   <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
 </head>
+<style>
+    /* Custom hover shadow effect */
+    .card {
+        border-radius: 10px;
+    }
 
+    .card:hover {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), 0 15px 40px rgba(0, 0, 0, 0.3);
+        transform: translateY(-5px);
+        transition: all 0.3s ease;
+        border: 0px;
+    }
+</style>
 <body class="g-sidenav-show  bg-gray-200">
   <?php include 'commons/aside.php' ?>
   <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">

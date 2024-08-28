@@ -99,9 +99,9 @@
         </nav>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
           <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-            <div class="input-group input-group-outline">
-              <label class="form-label">Type here...</label>
-              <input type="text" class="form-control">
+            <div class="input-group input-group-outline ">
+              <label class="form-label">SearchCat...</label>
+              <input type="text " id="searchInput" class="form-control" onkeyup="searchCat()">
             </div>
           </div>
           <ul class="navbar-nav  justify-content-end">
@@ -192,16 +192,16 @@
                       <!-- <th class="text-secondary opacity-7"></th> -->
                     </tr>
                   </thead>
-                  <?php foreach ($Test as $Category): ?>
-                    <tbody>
-                      <tr>
+                  <tbody class="cat-row">
+                      <?php foreach ($Test as $Category): ?>
+                      <tr >
                         <td>
                           <p class="text-xs font-weight-bold mb-0"><?= $Category['id']; ?></p>
                         </td>
                         <td>
                           <div class="d-flex px-2 py-1">
                             <div class="d-flex flex-column justify-content-center">
-                              <h6 class="mb-0 text-sm"><?= $Category['name']; ?></h6>
+                              <h6 class="mb-0 text-sm cat-title"><?= $Category['name']; ?></h6>
                               <!-- <p class="text-xs text-secondary mb-0">richard@creative-tim.com</p> -->
                             </div>
                           </div>
@@ -235,8 +235,8 @@
                                     <form role="form" action="<?= base_url('UpdateCategory'); ?>" method="post">
                                       <input type="hidden" name="id" id="edit-id">
                                       <div class="input-group input-group-outline mb-3">
-                                        <label class="form-label">Name</label>
-                                        <input type="text" name="name" id="edit-name" class="form-control">
+                                        <!-- <label class="form-label">Name</label> -->
+                                        <input type="text" name="name" id="edit-name" class="form-control" placeholder="Name">
                                       </div>
                                       <div class="input-group input-group-outline mb-3">
                                         <select name="status" id="edit-status" class="form-control">
@@ -268,8 +268,8 @@
                             class="btn btn-primary px-3 py-2 mt-2 mb-0">Delete</a>
                         </td>
                       </tr>
+                      <?php endforeach; ?>                 
                     </tbody>
-                    <?php endforeach; ?>                 
                 </table>
               </div>
             </div>
@@ -390,6 +390,18 @@
       });
     });
   </script>
+
+<script>
+            function searchCat() {
+                const input = document.getElementById('searchInput').value.toLowerCase();
+                const Categories = document.querySelectorAll('.cat-row');
+
+                Categories.forEach(Category => {
+                    const name = Category.querySelector('.cat-title').innerText.toLowerCase();
+                    card.style.display = name.includes(input) ? '' : 'none';
+                });
+            }
+        </script>
 
 </body>
 
