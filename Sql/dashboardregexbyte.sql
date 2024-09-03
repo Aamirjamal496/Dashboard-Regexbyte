@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 19, 2024 at 07:57 AM
+-- Generation Time: Sep 03, 2024 at 06:30 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -39,10 +39,61 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`id`, `name`, `status`, `description`) VALUES
-(54, '4343', '1', '4343'),
-(55, 'knk', '1', 'gcfgh'),
-(56, 'fwew', '0', 'fweew'),
-(57, 'fwew', '0', 'fweew');
+(59, 'Category 1', '1', 'Category One'),
+(60, 'Category 2', '1', 'Category Two'),
+(61, 'Category 3', '1', 'Category three'),
+(62, 'Category', '1', 'Category 4'),
+(63, 'Category 4', '1', 'Category 4'),
+(64, 'Category 5', '0', 'Category Five '),
+(65, 'Category 6', '0', 'Category Six'),
+(66, 'Category 7', '1', 'Category Seven');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `images`
+--
+
+CREATE TABLE `images` (
+  `id` int(10) NOT NULL,
+  `idProject` int(10) NOT NULL,
+  `image` varchar(40) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `images`
+--
+
+INSERT INTO `images` (`id`, `idProject`, `image`) VALUES
+(31, 23, '1724751434_dacaa232a957d72a2cb3.png'),
+(32, 23, '1724751435_6841023f88273b910d8a.png'),
+(33, 23, '1724751435_6d0d6395f8652fc9304e.png'),
+(34, 23, '1724751435_88b7b16c8bf5e9afd84f.png'),
+(35, 24, '1724822935_4fb378583b231bef6f2e.png'),
+(36, 24, '1724822935_50b2da57fa2d229d37e5.png'),
+(37, 24, '1724822935_a94193ce31c96d750d9c.png');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `projects`
+--
+
+CREATE TABLE `projects` (
+  `id` int(10) NOT NULL,
+  `idCategory` int(10) NOT NULL,
+  `projectTitle` varchar(50) NOT NULL,
+  `projectDescription` varchar(100) NOT NULL,
+  `createdAt` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `projects`
+--
+
+INSERT INTO `projects` (`id`, `idCategory`, `projectTitle`, `projectDescription`, `createdAt`) VALUES
+(23, 59, 'Project 1', 'PR 1 with cat 1', '0000-00-00 00:00:00'),
+(24, 60, 'Project 2', 'Project two with cat 2', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -65,7 +116,8 @@ CREATE TABLE `slider` (
 INSERT INTO `slider` (`profile`, `id`, `title`, `status`, `description`) VALUES
 ('user.png', 1, 'Slider 1', '1', 'Slider One'),
 ('edit1.png', 2, 'Slider 2', '1', 'Slider Second'),
-('logo.png', 5, 'Slider 3', '1', 'Slider Three');
+('logo.png', 5, 'Slider 3', '1', 'Slider Three'),
+('bank-img.jpg', 7, 'Slider 4', '1', 'Slider Four');
 
 -- --------------------------------------------------------
 
@@ -105,6 +157,20 @@ ALTER TABLE `categories`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `images`
+--
+ALTER TABLE `images`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK_proj_Img` (`idProject`);
+
+--
+-- Indexes for table `projects`
+--
+ALTER TABLE `projects`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK_IDCategory` (`idCategory`);
+
+--
 -- Indexes for table `slider`
 --
 ALTER TABLE `slider`
@@ -125,19 +191,41 @@ ALTER TABLE `user-table`
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=59;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=67;
+
+--
+-- AUTO_INCREMENT for table `images`
+--
+ALTER TABLE `images`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+
+--
+-- AUTO_INCREMENT for table `projects`
+--
+ALTER TABLE `projects`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `slider`
 --
 ALTER TABLE `slider`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `user-table`
 --
 ALTER TABLE `user-table`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `images`
+--
+ALTER TABLE `images`
+  ADD CONSTRAINT `FK_proj_Img` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
